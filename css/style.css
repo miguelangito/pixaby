@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #720455c0;
+    border: 3px solid #720455;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.card{
+  height: 300px;
+}
+
+#img-card{
+  object-fit: cover;
+  width: auto;
+  height: 250px;
+}
